@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(./asset/Images/front-banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+p {
+    font-size: 13px;
+}
+
+section {
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.center {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 10px 0;
+}
+
+.emblem {
+    width: 10%;
+    height: auto;
+    margin: 10px;
+}
+
+.emblem img {
+    max-width: 120px;
+    height: auto;
+}
+
+.nav {
+    width: 90%;
+    height: auto;
+    margin: 10px 20px 10px 40px;
+    border-left: 1px solid rgba(000, 0, 0, .1);
+    max-height: 100px;
+}
+
+.nav-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0 15px 40px;
+    border-bottom: 1px solid rgba(000, 0, 0, .1);
+}
+
+.info {
+    display: flex;
+}
+
+.info img {
+    width: 20px;
+    height: auto;
+}
+
+.info:first-child p:nth-child(4) {
+    padding: 4px 10px 0 10px;
+    font-size: 9px;
+    border-radius: 10px;
+    background: #e4e4e4;
+    font-weight: 700;
+    color: #192043;
+}
+
+.info:last-child img {
+    margin: 0 20px 0 0;
+
+}
+
+.info p {
+    margin: 0 40px 0 0px;
+    font-weight: 600;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.nav-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0 0 10px;
+}
+
+.list ul {
+    display: flex;
+}
+
+.list ul li a {
+    margin: 0 30px 0 0;
+    font-family: 'Quicksand', sans-serif;
+    color: #555555;
+
+}
+
+.list:first-child ul li a {
+    color: #555555;
+}
+
+.list:first-child ul li a:hover {
+    color: #192043;
+}
+
+.about a {
+    font-size: 14px;
+    color: #192043;
+    font-weight: 700;
+    font-family: arial;
+
+}
+
+.pilihan {
+    margin: 0 30px 0 0;
+}
+
+.pilihan .pilihan-btn {
+    font-size: 15px;
+    border: none;
+    outline: none;
+    color: #192043;
+    font-weight: 700;
+    background: none;
+}
+
+.pilihan:hover .pilihan-bg {
+    display: block;
+}
+
+.pilihan-bg {
+    display: none;
+}
+
+.pilihan-bg img {
+    width: 30px;
+    height: auto;
+    margin: 0 0 -15px 10px;
+}
+
+.pilihan-isi {
+    background: #ffffff;
+    border-radius: 5px;
+    width: 160px;
+    height: auto;
+    padding: 10px 0 10px 0;
+    position: absolute;
+    text-align: left;
+    margin: 0 0 0 -55px;
+}
+
+.pilihan-isi ul {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0 5px -15px;
+}
+
+.pilihan-isi ul li a {
+    font-size: 13px;
+    color: #b1b1b1;
+    font-weight: 600;
+}
+
+.pilihan-isi ul li {
+    margin: 5px 0;
+}
+
+.pilihan-isi ul li a:hover {
+    color: #192043;
+}
+
+.main-text {
+    max-width: 65%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-text h1 {
+    float: left;
+    margin: 60px 0 0 0;
+    font-size: 45px;
+    letter-spacing: 1px;
+    color: #1d1b38;
+}
+
+.main-text h3 {
+    font-family: 'Quicksand', sans-serif;
+    font-style: italic;
+    color: #132743;
+
+}
+
+.kalimat {
+    display: flex;
+    flex-direction: column;
+}
+
+.kalimat button {
+    padding: 10px 50px;
+    font-weight: 700;
+    margin: 50px 20px 0 0;
+    border: 1px #707070 solid;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    color: #393e46;
+}
+
+.kalimat button:first-child {
+    color: #ffff;
+    background: #00b76d;
+    border: 1px transparent solid;
+    font-weight: 300;
+}
+
+.kalimat button:first-child:hover {
+    color: #ffff;
+    background: #00965a;
+    border: 1px transparent solid;
+}
+
+.kalimat button:last-child {
+    background: none;
+    padding: 10px 25px;
+}
+
+.bawah {
+    margin: 90px 0 0 0;
+}
+
+.bawah img {
+    width: 90px;
+    height: auto;
+    margin: 0 20px 0 0;
+}
